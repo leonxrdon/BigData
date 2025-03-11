@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  hbase:
+    image: harisekhon/hbase
+    container_name: hbase
+    environment:
+      - HBASE_MASTER=true
+      - HBASE_REGION_SERVER=true
+    ports:
+      - "16000:16000"  # HBase Master UI
+      - "16010:16010"  # HBase Region Server UI
+      - "9090:9090"    # HBase Thrift
+    volumes:
+      - hbase-data:/data
+
+volumes:
+  hbase-data:
