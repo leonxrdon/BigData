@@ -23,8 +23,8 @@ El uso de Docker simplifica la configuración y despliegue del clúster, permiti
 ## Instrucciones de Configuración
 ### 1. Clonar el Repositorio
 ```bash
-git clone https://github.com/leo-narvaez/hadoop-docker-cluster
-cd hadoop-docker-cluster
+git clone https://github.com/leonxrdon/BigData/tree/main/Hadoop-Docker-Cluster
+cd Hadoop-Docker-Cluster
 ```
 ### 2. Construir y Levantar el Clúster
 ```bash
