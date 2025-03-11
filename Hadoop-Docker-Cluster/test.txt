@@ -1,0 +1,1 @@
+Este es un ejemplo de texto largo que vamos a usar para probar la funcionalidad de Word Count en Hadoop. La idea es contar cuántas veces aparecen ciertas palabras en este texto.
